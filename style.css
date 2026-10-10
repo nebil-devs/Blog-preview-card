@@ -25,17 +25,17 @@ main {
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
     border: 1px solid black;
-    border-radius: 2rem;
-    padding: 2rem;
-    gap: 1.5rem;
+    border-radius: 1.75rem;
+    padding: 1.5rem;
+    gap: 1rem;
     width: 100%;
-    max-width: 570px;
+    max-width: 380px;
     height: auto;
     box-shadow: 12px 12px;
 }
 
 .container img {
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     max-width: 100%;
     height: auto;
     margin-bottom: 11px;
@@ -44,20 +44,20 @@ main {
 .tag {
     background-color: hsl(47, 88%, 63%);
     font-weight: 800;
-    font-size: 1.3rem;
-    padding: 0.5rem 1.25rem;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     width: fit-content;
 }
 
 .container h3 {
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
 }
 
 .container h1 {
     font-weight: 800;
-    font-size: 2.25rem;
+    font-size: 1.5rem;
 }
 
 .container h1:hover {
@@ -68,7 +68,7 @@ main {
 .description {
     font-weight: 500;
     color: rgb(94, 94, 94);
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 12px;
     line-height: 1.5;
 }
@@ -81,81 +81,13 @@ main {
 
 .person-info p {
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .person-info img {
     max-width: 50px;
     height: auto;
-}
-
-@media (max-width: 650px) {
-
-    .container {
-        max-width: 450px;
-        gap: 1.25rem;
-    }
-
-    .tag {
-        font-size: 1rem;
-    }
-
-    .container h3 {
-        font-size: 1rem;
-    }
-
-    .container h1 {
-        font-size: 1.75rem;
-    }
-
-    .description {
-        font-size: 1.2rem;
-        margin-bottom: 12px;
-        line-height: 1.5;
-    }
-
-    .person-info p {
-        font-size: 1.2rem;
-    }
-
-}
-
-@media (max-width: 500px) {
-
-    .container {
-        max-width: 380px;
-        padding: 1.5rem;
-        border-radius: 1.75rem;
-        gap: 1rem;
-    }
-
-    .tag {
-        font-size: 0.9rem;
-        padding: 0.5rem 1rem;
-    }
-
-    .container img{
-        border-radius: 1.25rem;
-    }
-
-    .container h3 {
-        font-size: 0.9rem;
-    }
-
-    .container h1 {
-        font-size: 1.5rem;
-    }
-
-    .description {
-        font-size: 1rem;
-        margin-bottom: 12px;
-        line-height: 1.5;
-    }
-
-    .person-info p {
-        font-size: 1rem;
-    }
-
+    margin-bottom: 0;
 }
 
 @media (max-width: 440px) {
