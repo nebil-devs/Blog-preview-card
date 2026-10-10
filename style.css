@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-html{
+html {
     font-size: 16px;
 }
 
-body{
+body {
     background-color: hsl(47, 88%, 63%);
     font-family: "Figtree", sans-serif;
 }
@@ -19,25 +19,28 @@ main {
     min-height: 100vh;
 }
 
-.container{
-    display:flex;
+.container {
+    display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
     border: 1px solid black;
     border-radius: 2rem;
-    padding:2rem;
+    padding: 2rem;
     gap: 1.5rem;
     width: 100%;
     max-width: 500px;
+    height: auto;
+    box-shadow: 12px 12px;
 }
 
-.container img{
-    border-radius:1.5rem;
+.container img {
+    border-radius: 1.5rem;
     max-width: 100%;
     height: auto;
+    margin-bottom: 11px;
 }
 
-.tag{
+.tag {
     background-color: hsl(47, 88%, 63%);
     font-weight: 800;
     font-size: 1.3rem;
@@ -46,32 +49,41 @@ main {
     width: fit-content;
 }
 
-.container h3{
+.container h3 {
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
-.container h1{
+.container h1 {
     font-weight: 800;
     font-size: 2.25rem;
 }
 
-.description{
-    font-weight: 500;
-    font-size: 1.5rem;
+.container h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
-.person-info{
+.description {
+    font-weight: 500;
+    color: rgb(94, 94, 94);
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.person-info {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.1rem;
     align-items: center;
 }
 
-.person-info p{
+.person-info p {
     font-weight: 800;
     font-size: 1.5rem;
 }
 
-
-
-
+.person-info img {
+    max-width: 50px;
+    height: auto;
+}
